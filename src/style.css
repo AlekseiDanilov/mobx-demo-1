@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.board {
+    background-repeat: repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.clock {
+    width: 60%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin: -125px 0 0 -125px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.clock_city {
+    font-size: 2em;
+}
+
+.clock_timer {
+    font-size: 5em;
+}
